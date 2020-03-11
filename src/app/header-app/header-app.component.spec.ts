@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { FlipCardComponent } from './flip-card.component';
+import { HeaderAppComponent } from './header-app.component';
 
-describe('FlipCardComponent', () => {
-  let component: FlipCardComponent;
-  let fixture: ComponentFixture<FlipCardComponent>;
+describe('HeaderAppComponent', () => {
+  let component: HeaderAppComponent;
+  let fixture: ComponentFixture<HeaderAppComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FlipCardComponent ],
+      declarations: [ HeaderAppComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(FlipCardComponent);
+    fixture = TestBed.createComponent(HeaderAppComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

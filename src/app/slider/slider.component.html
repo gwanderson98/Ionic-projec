@@ -1,0 +1,9 @@
+<ion-slides pager="true" class="slides">
+  <ion-slide class="slide-text">
+    <h1 class="title-slide">{{ titleFlip }}</h1>
+    <p class="text-slide"> {{ textFlip }}</p>
+  </ion-slide>
+  <ion-slide *ngFor=" let image of groupImg1">
+    <p> {{ image.url }} </p>
+  </ion-slide>
+</ion-slides>

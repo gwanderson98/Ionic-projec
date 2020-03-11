@@ -5,7 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
-import { FlipCardComponent } from '../flip-card/flip-card.component'
+import { HeaderAppComponent } from '../header-app/header-app.component'
+import { SliderComponent } from '../slider/slider.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,6 @@ import { FlipCardComponent } from '../flip-card/flip-card.component'
       }
     ])
   ],
-  declarations: [HomePage, FlipCardComponent,]
+  declarations: [HomePage, HeaderAppComponent, SliderComponent, ]
 })
 export class HomePageModule {}
